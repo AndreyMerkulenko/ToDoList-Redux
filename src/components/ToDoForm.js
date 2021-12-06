@@ -11,13 +11,14 @@ function ToDoForm() {
       };
     
       const addTask = (task) => {
+        if(task) {
           const newTask={
               id: Math.random().toString(36).substr(2, 9),
               task: task,
             complete: false,
           }
           dispatch(addTaskAction(newTask))
-      }
+      }}
     const handleSubmit = (e) => {
         e.preventDefault();
         addTask(userInput) 

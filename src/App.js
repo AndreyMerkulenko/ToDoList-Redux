@@ -1,12 +1,9 @@
 import { useSelector } from "react-redux";
-import { useDispatch } from "react-redux";
 import ToDo from "./components/ToDo";
 import ToDoForm from "./components/ToDoForm";
 
 
 function App() {
-
-  const dispatch = useDispatch()
   const task = useSelector(state=> state.task.task)
 
 
