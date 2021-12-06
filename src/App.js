@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import { useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
+import ToDo from "./components/ToDo";
+import ToDoForm from "./components/ToDoForm";
+
 
 function App() {
+
+  const dispatch = useDispatch()
+  const task = useSelector(state=> state.task.task)
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <header>
+        <h1>Список задач: {task.length}</h1>
       </header>
+      <ToDoForm/>
+        {task.map(task=>{
+          return(
+            <ToDo task={task} key={task.id}/>
+          )
+        })}
     </div>
   );
 }
