@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/ToDoList-Redux/static/css/main.bfa3c4a4.chunk.css",
-    "main.js": "/ToDoList-Redux/static/js/main.781481b1.chunk.js",
-    "main.js.map": "/ToDoList-Redux/static/js/main.781481b1.chunk.js.map",
-    "runtime-main.js": "/ToDoList-Redux/static/js/runtime-main.9d2c1de6.js",
-    "runtime-main.js.map": "/ToDoList-Redux/static/js/runtime-main.9d2c1de6.js.map",
-    "static/js/2.d1fb68fe.chunk.js": "/ToDoList-Redux/static/js/2.d1fb68fe.chunk.js",
-    "static/js/2.d1fb68fe.chunk.js.map": "/ToDoList-Redux/static/js/2.d1fb68fe.chunk.js.map",
-    "static/js/3.f45753d2.chunk.js": "/ToDoList-Redux/static/js/3.f45753d2.chunk.js",
-    "static/js/3.f45753d2.chunk.js.map": "/ToDoList-Redux/static/js/3.f45753d2.chunk.js.map",
+    "main.css": "/ToDoList-Redux/static/css/main.f3454f37.chunk.css",
+    "main.js": "/ToDoList-Redux/static/js/main.57b070fd.chunk.js",
+    "main.js.map": "/ToDoList-Redux/static/js/main.57b070fd.chunk.js.map",
+    "runtime-main.js": "/ToDoList-Redux/static/js/runtime-main.542c1485.js",
+    "runtime-main.js.map": "/ToDoList-Redux/static/js/runtime-main.542c1485.js.map",
+    "static/js/2.65bad685.chunk.js": "/ToDoList-Redux/static/js/2.65bad685.chunk.js",
+    "static/js/2.65bad685.chunk.js.map": "/ToDoList-Redux/static/js/2.65bad685.chunk.js.map",
+    "static/js/3.195fbb12.chunk.js": "/ToDoList-Redux/static/js/3.195fbb12.chunk.js",
+    "static/js/3.195fbb12.chunk.js.map": "/ToDoList-Redux/static/js/3.195fbb12.chunk.js.map",
     "index.html": "/ToDoList-Redux/index.html",
-    "static/css/main.bfa3c4a4.chunk.css.map": "/ToDoList-Redux/static/css/main.bfa3c4a4.chunk.css.map",
-    "static/js/2.d1fb68fe.chunk.js.LICENSE.txt": "/ToDoList-Redux/static/js/2.d1fb68fe.chunk.js.LICENSE.txt"
+    "static/css/main.f3454f37.chunk.css.map": "/ToDoList-Redux/static/css/main.f3454f37.chunk.css.map",
+    "static/js/2.65bad685.chunk.js.LICENSE.txt": "/ToDoList-Redux/static/js/2.65bad685.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.9d2c1de6.js",
-    "static/js/2.d1fb68fe.chunk.js",
-    "static/css/main.bfa3c4a4.chunk.css",
-    "static/js/main.781481b1.chunk.js"
+    "static/js/runtime-main.542c1485.js",
+    "static/js/2.65bad685.chunk.js",
+    "static/css/main.f3454f37.chunk.css",
+    "static/js/main.57b070fd.chunk.js"
   ]
 }
