@@ -1,7 +1,7 @@
 import React from 'react'
 import { useDispatch } from 'react-redux';
 import { editTaskAction, removeTaskAction, toggleTaskAction } from '../store/taskReducer';
-
+import { DeleteOutlined, EditOutlined } from '@ant-design/icons';
 function ToDo({task}) {
     const dispatch = useDispatch();
 
@@ -26,10 +26,10 @@ function ToDo({task}) {
                     {task.task}
                 </div>
                     <div className="item-delete" onClick={() => removeTask(task.id)}>
-                    X
+                    <DeleteOutlined />
                     </div>
                         <div className="item-edit" onClick={() => editTask(task.task)}>
-                        edit
+                        <EditOutlined />
                         </div>
             </div>
         </div>
